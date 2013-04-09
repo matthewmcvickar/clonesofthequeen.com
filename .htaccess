@@ -1,0 +1,46 @@
+<IfModule mod_rewrite.c> 
+RewriteEngine On
+RewriteBase /
+
+# No www.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.clonesofthequeen\.com$ [NC]
+RewriteRule ^.*$ http://clonesofthequeen.com%{REQUEST_URI} [R=301s,L]
+
+# Old site sections
+RewriteRule ^gate.*$ http://clonesofthequeen.bandcamp.com/album/gate [R=301,L]
+RewriteRule ^gate/download.*$ http://clonesofthequeen.bandcamp.com/album/gate [R=301,L]
+RewriteRule ^about.*$ /?section=about [R=301,L]
+RewriteRule ^store.*$ /?section=store [R=301,L]
+RewriteRule ^photos.*$ /?section=photos [R=301,L]
+
+RewriteRule ^braided.*$ http://clonesofthequeen.bandcamp.com/album/braided [R=301,L]
+</IfModule>
+
+# Caching.
+  # 1 year.
+<FilesMatch "\.(ico|pdf|flv)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+  # 1 week.
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+  # 2 days.
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=172800, proxy-revalidate"
+</FilesMatch>
+  # 1 minute.
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=60, private, proxy-revalidate"
+</FilesMatch>
+
+# Force download of JPGs and PDFs (from the 'Press Materials' section)
+<Files *.jpg>
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</Files>
+<Files *.pdf>
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</Files>

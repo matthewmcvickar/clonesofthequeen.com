@@ -103,49 +103,49 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <h2 id="photos">Photos</h2>
 
       <div class="slideshow">
-        <div><img src="/images/photos/AJ-Feducia-1.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
-        <div><img src="/images/photos/AJ-Feducia-2.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
-        <div><img src="/images/photos/AJ-Feducia-3.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
-        <div><img src="/images/photos/AJ-Feducia-4.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
-        <div><img src="/images/photos/David-Randall-1.jpg" title="Photo by David Randall"><span>Photo by David Randall</span></div>
-        <div><img src="/images/photos/Colin-Cross-1.jpg" title="Photo by Colin Cross"><span>Photo by Colin Cross</span></div>
-        <div><img src="/images/photos/Zach-McCaffree-1.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
-        <div><img src="/images/photos/Zach-McCaffree-2.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
-        <div><img src="/images/photos/Zach-McCaffree-3.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
-        <div><img src="/images/photos/Zach-McCaffree-4.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
-        <div><img src="/images/photos/Shirley-Lam-1.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
-        <div><img src="/images/photos/Shirley-Lam-2.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
-        <div><img src="/images/photos/Shirley-Lam-3.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
-        <div><img src="/images/photos/Shirley-Lam-4.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
-        <div><img src="/images/photos/Mark-Kushimi-1.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
-        <div><img src="/images/photos/Mark-Kushimi-2.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
-        <div><img src="/images/photos/Mark-Kushimi-3.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
-        <div><img src="/images/photos/Partyyyface-1.jpg" title="Photo by Partyyyface"><span>Photo by Partyyyface</span></div>
-        <div><img src="/images/photos/Miya-Yamaoka-1.jpg" title="Photo by Miya Yamaoaka"><span>Photo by Miya Yamaoaka</span></div>
-        <div><img src="/images/photos/Kai-Salus-1.jpg" title="Photo by Kai Salus"><span>Photo by Kai Salus</span></div>
+        <div><img src="http://farm9.staticflickr.com/8386/8632360217_8e863c53b5_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
+        <div><img src="http://farm9.staticflickr.com/8402/8632360177_8fafca1e63_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
+        <div><img src="http://farm9.staticflickr.com/8254/8632360061_7b9c19fd14_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
+        <div><img src="http://farm9.staticflickr.com/8384/8632360013_413a264107_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
+        <div><img src="http://farm9.staticflickr.com/8522/8632359947_7902e8097f_b.jpg" title="Photo by David Randall"><span>Photo by David Randall</span></div>
+        <div><img src="http://farm9.staticflickr.com/8105/8633467436_18906a9658_b.jpg" title="Photo by Colin Cross"><span>Photo by Colin Cross</span></div>
+        <div><img src="http://farm9.staticflickr.com/8539/8633466918_336dc00666_b.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
+        <div><img src="http://farm9.staticflickr.com/8541/8632359753_3f51598dc9_b.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
+        <div><img src="http://farm9.staticflickr.com/8116/8632359763_f2cac7e758_b.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
+        <div><img src="http://farm9.staticflickr.com/8394/8633466902_1dbab9a3c5_b.jpg" title="Photo by Zach McCaffree"><span>Photo by Zach McCaffree</span></div>
+        <div><img src="http://farm9.staticflickr.com/8244/8633466994_fdbc3fb986_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm9.staticflickr.com/8125/8632359833_ba0a2a26e7_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm9.staticflickr.com/8386/8632359835_d8d320d510_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm9.staticflickr.com/8107/8632359799_baf032a7b8_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm9.staticflickr.com/8406/8632359979_45240d37aa_b.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
+        <div><img src="http://farm9.staticflickr.com/8519/8632359883_cfcc97e3aa_b.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
+        <div><img src="http://farm9.staticflickr.com/8543/8633467034_c8d18a2067_b.jpg" title="Photo by Mark Kushimi"><span>Photo by Mark Kushimi</span></div>
+        <div><img src="http://farm9.staticflickr.com/8251/8633467010_a4d1737023_b.jpg" title="Photo by Partyyyface"><span>Photo by Partyyyface</span></div>
+        <div><img src="http://farm9.staticflickr.com/8118/8632359909_212e548f51_b.jpg" title="Photo by Miya Yamaoaka"><span>Photo by Miya Yamaoaka</span></div>
+        <div><img src="http://farm9.staticflickr.com/8109/8633467130_ef407f1fc3_b.jpg" title="Photo by Kai Salus"><span>Photo by Kai Salus</span></div>
       </div>
 
       <ul id="slideshow_navigation">
-        <li><a href="#"><img src="/images/photos/AJ-Feducia-1.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="/images/photos/AJ-Feducia-2.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="/images/photos/AJ-Feducia-3.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="/images/photos/AJ-Feducia-4.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="/images/photos/David-Randall-1.jpg" title="Photo by David Randall"></a></li>
-        <li><a href="#"><img src="/images/photos/Colin-Cross-1.jpg" title="Photo by Colin Cross"></a></li>
-        <li><a href="#"><img src="/images/photos/Zach-McCaffree-1.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="/images/photos/Zach-McCaffree-2.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="/images/photos/Zach-McCaffree-3.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="/images/photos/Zach-McCaffree-4.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="/images/photos/Shirley-Lam-1.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="/images/photos/Shirley-Lam-2.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="/images/photos/Shirley-Lam-3.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="/images/photos/Shirley-Lam-4.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="/images/photos/Mark-Kushimi-1.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="/images/photos/Mark-Kushimi-2.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="/images/photos/Mark-Kushimi-3.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="/images/photos/Partyyyface-1.jpg" title="Photo by Partyyyface"></a></li>
-        <li><a href="#"><img src="/images/photos/Miya-Yamaoka-1.jpg" title="Photo by Miya Yamaoaka"></a></li>
-        <li><a href="#"><img src="/images/photos/Kai-Salus-1.jpg" title="Photo by Kai Salus"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8386/8632360217_8e863c53b5_b.jpg" title="Photo by AJ Feducia"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8402/8632360177_8fafca1e63_b.jpg" title="Photo by AJ Feducia"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8254/8632360061_7b9c19fd14_b.jpg" title="Photo by AJ Feducia"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8384/8632360013_413a264107_b.jpg" title="Photo by AJ Feducia"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8522/8632359947_7902e8097f_b.jpg" title="Photo by David Randall"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8105/8633467436_18906a9658_b.jpg" title="Photo by Colin Cross"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8539/8633466918_336dc00666_b.jpg" title="Photo by Zach McCaffree"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8541/8632359753_3f51598dc9_b.jpg" title="Photo by Zach McCaffree"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8116/8632359763_f2cac7e758_b.jpg" title="Photo by Zach McCaffree"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8394/8633466902_1dbab9a3c5_b.jpg" title="Photo by Zach McCaffree"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8244/8633466994_fdbc3fb986_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8125/8632359833_ba0a2a26e7_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8386/8632359835_d8d320d510_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8107/8632359799_baf032a7b8_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8406/8632359979_45240d37aa_b.jpg" title="Photo by Mark Kushimi"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8519/8632359883_cfcc97e3aa_b.jpg" title="Photo by Mark Kushimi"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8543/8633467034_c8d18a2067_b.jpg" title="Photo by Mark Kushimi"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8251/8633467010_a4d1737023_b.jpg" title="Photo by Partyyyface"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8118/8632359909_212e548f51_b.jpg" title="Photo by Miya Yamaoaka"></a></li>
+        <li><a href="#"><img src="http://farm9.staticflickr.com/8109/8633467130_ef407f1fc3_b.jpg" title="Photo by Kai Salus"></a></li>
       </ul>
 
       <p class="photo_warning">All photos are copyright their photographers, all rights reserved. Reuse is only permitted with permission&mdash;<a href="mailto:contact@clonesofthequeen.com">email us</a>. Please do not use one of these photos for a flyer without asking the photographer first and crediting them.</p>

@@ -382,3 +382,30 @@ ul.links li
   text-align: center;
 
 }
+
+.intro,
+.click,
+.listen
+{
+  font-family: Georgia, Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  margin: .5em 0;
+  padding: 0;
+  text-align: center;
+}
+
+.click
+{
+  cursor: pointer;
+  display: block;
+  margin: .75em 0;
+  text-decoration: none;
+}
+
+.player iframe
+{
+  display: block;
+  margin: 2.5em auto 0 auto;
+}

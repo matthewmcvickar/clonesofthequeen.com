@@ -60,15 +60,18 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
 
   <body>
     <div class="container">
-      <h1 style="display: none;"><a class="title" href="/" title="Clones of the Queen" rel="home">Clones of the Queen</a></h1>
+      <h1><a class="title" href="/" title="Clones of the Queen" rel="home">Clones of the Queen</a></h1>
       
-      <a style="display: block; margin: 1em 0; font-family: Georgia, Times, serif; font-size: 32px; font-weight: bold; text-align: center; text-decoration: none;" href="http://clonesofthequeen.bandcamp.com/album/braided">
-        We are a dreampop trio from Honolulu, Hawaii.<br>
-        Click here to download our new EP <em>Braided</em> for free.
-      </a>
+      <p class="intro">We are a synth-pop trio from Honolulu, Hawaii.</p>
 
-      <iframe style="display: block; margin: 2em auto;" width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=2206149206/size=venti/bgcol=ffffff/linkcol=0099FF/" allowtransparency="true" frameborder="0"><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
-      
+      <p class="click"><a stylehref="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our new EP <em>Braided</em> for free.</a></p>
+
+      <p class="listen">Or listen right here:</p>
+
+      <div class="player">
+        <iframe style="border: 0; width: 350px; height: 470px;" src="http://bandcamp.com/EmbeddedPlayer/album=2206149206/size=large/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
+      </div>
+
       <!-- <a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="images/braided-huge.gif"></a> -->
 
       <hr>

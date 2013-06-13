@@ -64,7 +64,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       
       <p class="intro">We are a synth-pop trio from Honolulu, Hawaii.</p>
 
-      <p class="click"><a stylehref="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our new EP <em>Braided</em> for free.</a></p>
+      <p class="click"><a stylehref="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our EP <em>Braided</em> for free.</a></p>
 
       <p class="listen">Or listen right here:</p>
 

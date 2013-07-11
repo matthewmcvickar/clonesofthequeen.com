@@ -37,7 +37,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         pauseOnPagerHover: 'true',
         pagerAnchorBuilder: function(idx, slide) { return '#slideshow_navigation li:eq(' + idx + ') a'; }
     	});
-    	
+
       $('.tee_photos').cycle({
     		fx: 'fade',
         timeout: 2500
@@ -61,10 +61,12 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
   <body>
     <div class="container">
       <h1><a class="title" href="/" title="Clones of the Queen" rel="home">Clones of the Queen</a></h1>
-      
+
       <p class="intro">We are a synth-pop trio from Honolulu, Hawaii.</p>
 
-      <p class="click"><a stylehref="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our EP <em>Braided</em> for free.</a></p>
+      <p class="who">Ara Laylo on vocals, Paul Bajcar on guitar, Matthew McVickar on electronics.</p>
+
+      <p class="click"><a href="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our EP <em>Braided</em> for free.</a></p>
 
       <p class="listen">Or listen right here:</p>
 
@@ -278,7 +280,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         <li><a href="http://contrastmagazine.com/blog/?p=5259"><strong>2009-12-08</strong> &bull; Contrast: Time Wasterz</a></li>
         <li><a href="http://timbretantrums.com/2009/11/clones-of-queen.html"><strong>2009-11-05</strong> &bull; Timbre Tantrums</a></li>
       </ul>
-      
+
       <div class="clear"></div>
 
       <h3>Videos</h3>

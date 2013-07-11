@@ -384,16 +384,23 @@ ul.links li
 }
 
 .intro,
+.who,
 .click,
 .listen
 {
   font-family: Georgia, Times, serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 1;
   margin: .5em 0;
   padding: 0;
   text-align: center;
+}
+
+.who
+{
+  font-size: 16px;
+  margin: 1.5em 0;
 }
 
 .click
@@ -402,6 +409,16 @@ ul.links li
   display: block;
   margin: .75em 0;
   text-decoration: none;
+}
+
+.click a
+{
+  border-bottom: 2px solid #09F;
+}
+
+.click a:hover
+{
+  border-bottom: 2px solid #333;
 }
 
 .player iframe

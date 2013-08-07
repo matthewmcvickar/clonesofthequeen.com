@@ -37,11 +37,6 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         pauseOnPagerHover: 'true',
         pagerAnchorBuilder: function(idx, slide) { return '#slideshow_navigation li:eq(' + idx + ') a'; }
     	});
-
-      $('.tee_photos').cycle({
-    		fx: 'fade',
-        timeout: 2500
-    	});
     });
     </script>
 
@@ -108,6 +103,13 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <h2 id="photos">Photos</h2>
 
       <div class="slideshow">
+        <div><img src="http://farm6.staticflickr.com/5487/9459990467_c9fbb05cd3_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm6.staticflickr.com/5336/9462771602_683bc9cd53_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
+        <div><img src="http://farm8.staticflickr.com/7424/9462771584_69c2a2e1d2_b.jpg" title="Photo by Jason DeBord"><span>Photo by Jason DeBord</span></div>
+        <div><img src="http://farm8.staticflickr.com/7426/9459990861_3da729ae4d_b.jpg" title="Photo by Jason DeBord"><span>Photo by Jason DeBord</span></div>
+        <div><img src="http://farm8.staticflickr.com/7310/9462771768_04cc8e99ee_b.jpg" title="Photo by Jason DeBord"><span>Photo by Jason DeBord</span></div>
+        <div><img src="http://farm6.staticflickr.com/5493/9462771864_e1c70501ce_b.jpg" title="Photo by Jason DeBord"><span>Photo by Jason DeBord</span></div>
+        <div><img src="http://farm8.staticflickr.com/7369/9459991055_e1de2b2fc3_b.jpg" title="Photo by Lauren Howard"><span>Photo by Lauren Howard</span></div>
         <div><img src="http://farm9.staticflickr.com/8386/8632360217_850665a4fa_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
         <div><img src="http://farm9.staticflickr.com/8402/8632360177_ac4e7f08a2_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
         <div><img src="http://farm9.staticflickr.com/8254/8632360061_d49345fd58_b.jpg" title="Photo by AJ Feducia"><span>Photo by AJ Feducia</span></div>
@@ -131,6 +133,13 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       </div>
 
       <ul id="slideshow_navigation">
+        <li><a href="#"><img src="http://farm6.staticflickr.com/5487/9459990467_c9fbb05cd3_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm6.staticflickr.com/5336/9462771602_683bc9cd53_b.jpg" title="Photo by Shirley Lam"></a></li>
+        <li><a href="#"><img src="http://farm8.staticflickr.com/7424/9462771584_69c2a2e1d2_b.jpg" title="Photo by Jason DeBord"></a></li>
+        <li><a href="#"><img src="http://farm8.staticflickr.com/7426/9459990861_3da729ae4d_b.jpg" title="Photo by Jason DeBord"></a></li>
+        <li><a href="#"><img src="http://farm8.staticflickr.com/7310/9462771768_04cc8e99ee_b.jpg" title="Photo by Jason DeBord"></a></li>
+        <li><a href="#"><img src="http://farm6.staticflickr.com/5493/9462771864_e1c70501ce_b.jpg" title="Photo by Jason DeBord"></a></li>
+        <li><a href="#"><img src="http://farm8.staticflickr.com/7369/9459991055_e1de2b2fc3_b.jpg" title="Photo by Lauren Howard"></a></li>
         <li><a href="#"><img src="http://farm9.staticflickr.com/8386/8632360217_850665a4fa_b.jpg" title="Photo by AJ Feducia"></a></li>
         <li><a href="#"><img src="http://farm9.staticflickr.com/8402/8632360177_ac4e7f08a2_b.jpg" title="Photo by AJ Feducia"></a></li>
         <li><a href="#"><img src="http://farm9.staticflickr.com/8254/8632360061_d49345fd58_b.jpg" title="Photo by AJ Feducia"></a></li>
@@ -158,13 +167,14 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <hr>
 
       <h2 id="about">About</h2>
-      <a style="float: right; width: 110px; margin-left: 2.5em; text-align: center;" href="/files/COTQ Bio.pdf"><img src="files/thumbnails/bio.png" alt=""><br><strong>COTQ Bio (PDF)</strong></a>
+      <a style="float: right; width: 110px; margin-left: 2.5em; text-align: center;" href="files/COTQ Bio.pdf"><img src="files/thumbnails/bio.png" alt=""><br><strong>COTQ Bio (PDF)</strong></a>
       <div class="bio">
-      <p>Clones of the Queen, abbreviated &#8216;COTQ&#8217; or just &#8216;Clones&#8217;, is a <strong>three-piece dream-pop band</strong> based in Honolulu, Hawai&#8217;i. The band started jamming together in the summer of 2009 in an old bank vault above a coffee shop, and now write and practice on the fourth floor of the reportedly haunted once-Blaisdell Hotel in downtown Honolulu. With <strong>Ara Laylo on lead vocals, Paul Bajcar on guitar, and Matthew McVickar on drums and electronics</strong>, the trio delivers songs that are at once ambient and spirited, combining strong vocals, stormy percussion, and heavily-effected guitar lines and synth loops. Clones of the Queen derive their band name from the ant species Mycocepurus smithii, in which every individual is a genetic duplicate of the queen. The band <strong>self-recorded and -released <a href="http://clonesofthequeen.bandcamp.com/album/braided">their sophomore EP, Braided</a>, in July of 2012</strong> and is currently playing shows in Honolulu. Their <strong><a href="http://www.kickstarter.com/projects/matthewmcvickar/clones-of-the-queen-the-first-ep">fan-funded</a>, self-released <a href="http://clonesofthequeen.bandcamp.com/album/gate">debut EP</a></strong> was released in December 2010, and <a href="http://clonesofthequeen.com/"><strong>all of their music is free to download from their website</strong></a>.</p>
-      <p>They have been <a href="http://yvynyl.tumblr.com/post/1047942186/i-often-wonder-what-it-must-be-like-to-be-an-indie"><strong>featured on the popular music blog yvynyl</strong></a>. The trio has been the main support for many visiting bands, opening for <strong>Menomena, Diplo, Toro Y Moi, Little Dragon, and Warpaint</strong>, for whom they opened at Aloha Tower on the opening night of Hallowbaloo 2011, Honolulu&#8217;s yearly three-day Halloween music and street festival.</p>
-      <p>They have played every one of downtown Honolulu&#8217;s nighttime hotspots, the Hard Rock Cafe Waikiki, and have played at the <strong>Honolulu Academy of Arts</strong> and the <strong>Contemporary Museum of Honolulu</strong> multiple times for special events.</p>
+      <p>Clones of the Queen, abbreviated &#8216;COTQ&#8217; or just &#8216;Clones&#8217;, is a <strong>three-piece synth-pop band</strong> based in Honolulu, Hawai&#8217;i. The band started jamming together in the summer of 2009 in an old bank vault above a coffee shop, and now write, practice, and record in the Crow&rsquo;s Nest, a room on the fourth floor of the old Blaisdell Hotel in downtown Honolulu. With <strong>Ara Laylo on lead vocals, Paul Bajcar on guitar, and Matthew McVickar on drums and electronics</strong>, the trio delivers songs that are at once ambient and spirited, combining strong vocals, stormy percussion, and heavily-effected guitar lines and synth loops. Clones of the Queen derive their band name from the ant species Mycocepurus smithii, in which every individual is a genetic duplicate of the queen.</p>
+      <p>The unsigned band has <strong>self-released three EPs</strong>: <strong><em>Moonlight</em></strong> in September 2013, <a href="http://clonesofthequeen.bandcamp.com/album/braided"><strong><em>Braided</em></strong></a> in July 2012, and their <strong><a href="http://www.kickstarter.com/projects/matthewmcvickar/clones-of-the-queen-the-first-ep">fan-funded</a></strong> debut EP <strong><a href="http://clonesofthequeen.bandcamp.com/album/gate"><em>Gate</em></a></strong> in December 2010. All of their music is free to download from their website.
+      <p>Clones of the Queen was honored with <strong>opening for The Cure at Blaisdell Arena</strong> in July 2013. Lead singer of The Cure Robert Smith himself choose Clones to open the show, and they played to the acclaim of fans new and old and got <strong><a href="http://rocksubculture.com/2013/07/31/the-cure-the-great-circle-tour-at-neal-s-blaisdell-arena-honolulu-hawaii-7302013-concert-review/">great reviews</a></strong>.</p>
+      <p>They have been <a href="http://yvynyl.tumblr.com/post/1047942186/i-often-wonder-what-it-must-be-like-to-be-an-indie"><strong>featured on the popular music blog yvynyl</strong></a>. The trio has been the main support for many visiting bands, opening for <strong>Toro Y Moi, of Montreal, Menomena, Diplo, Little Dragon, and Warpaint</strong>, for whom they opened at Aloha Tower on the opening night of Hallowbaloo 2011, Honolulu&#8217;s yearly Halloween music and street festival.</p>
+      <p>They have played every one of downtown Honolulu&#8217;s nighttime hotspots, Waikiki&rsquo;s Hard Rock Cafe, and the <strong>Honolulu Academy of Arts</strong> and the <strong>Contemporary Museum of Honolulu</strong> multiple times for special events.</p>
       <p>The band has had dozens of write-ups in local newspapers (both the Star Advertiser and the Honolulu Weekly), and was named as the <a href="http://contests.thephoenix.com/50states/2011/hawaii"><strong>Best Band in Honolulu by the Boston Phoenix for their yearly Best New Bands in America feature in 2011</strong></a>.</p>
-      <p>Matthew McVickar, producer and live electronics player in the band, <strong>produced the score for the <a href="http://www.youtube.com/watch?v=IvG5Rbq5NNc">Hawaii International Film Festival 2011 trailer</a></strong>, remixing taiko drummer of international renown Kenny Endo. As a solo artist, he has opened for <strong>Classixx</strong> and <strong>Baths</strong> and released an EP of his own in August 2011.</p>
       <p>For more information, promo requests, or to set up an interview, please <a href="mailto:contact@clonesofthequeen.com">email the band</a>.</p>
       </div>
 
@@ -178,15 +188,15 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         <div class="span-19 first">
           <h3><em>Braided</em> EP</h3>
           <ul class="thumbs">
-            <li><a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="/files/thumbnails/braided_download.gif" alt="" />MP3 Download</a></li>
-            <li><a href="/files/COTQ - Braided - Cover.jpg"><img src="/files/thumbnails/braided_cover.jpg" alt="">Cover</a></li>
-            <li><a href="/files/COTQ - Braided - Digital Booklet.pdf"><img src="/files/thumbnails/braided_booklet.gif" alt="" />Digital Booklet</a></li>
+            <li><a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="files/thumbnails/braided_download.gif" alt="" />MP3 Download</a></li>
+            <li><a href="files/COTQ - Braided - Cover.jpg"><img src="files/thumbnails/braided_cover.jpg" alt="">Cover</a></li>
+            <li><a href="files/COTQ - Braided - Digital Booklet.pdf"><img src="files/thumbnails/braided_booklet.gif" alt="" />Digital Booklet</a></li>
           </ul>
         </div>
         <div class="span-5 last">
           <h3>Live</h3>
           <ul class="thumbs">
-            <li><a href="/files/COTQ Stageplot and Backline.pdf"><img src="files/thumbnails/backline.png" alt="" />Stage Plot and Backline</a></li>
+            <li><a href="files/COTQ Stageplot and Backline.pdf"><img src="files/thumbnails/backline.png" alt="" />Stage Plot and Backline</a></li>
           </ul>
         </div>
 
@@ -195,41 +205,22 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         <div class="span-24 first last">
           <h3><em>Gate</em> EP</h3>
           <ul class="thumbs">
-            <li><a href="http://clonesofthequeen.com/gate"><img src="/files/thumbnails/gate_download.gif" alt="" />MP3 Download</a></li>
-            <li><a href="/files/COTQ - Gate - Cover (Front).jpg"><img src="/files/thumbnails/gate_front.jpg" alt="">Front Cover</a></li>
-            <li><a href="/files/COTQ - Gate - Cover (Back).jpg"><img src="/files/thumbnails/gate_back.jpg" alt="">Back Cover</a></li>
-            <li><a href="/files/COTQ - Gate - Digital Booklet.pdf"><img src="/files/thumbnails/gate_booklet.gif" alt="" />Digital Booklet</a></li>
+            <li><a href="http://clonesofthequeen.com/gate"><img src="files/thumbnails/gate_download.gif" alt="" />MP3 Download</a></li>
+            <li><a href="files/COTQ - Gate - Cover (Front).jpg"><img src="files/thumbnails/gate_front.jpg" alt="">Front Cover</a></li>
+            <li><a href="files/COTQ - Gate - Cover (Back).jpg"><img src="files/thumbnails/gate_back.jpg" alt="">Back Cover</a></li>
+            <li><a href="files/COTQ - Gate - Digital Booklet.pdf"><img src="files/thumbnails/gate_booklet.gif" alt="" />Digital Booklet</a></li>
           </ul>
         </div>
       </div>
 
       <div class="clear"></div>
 
-<!--
-      <h3>Small Photos</h3>
-      <ul class="thumbs">
-        <li><a title="Clones of the Queen Live Shot 1 by Aaron Yoshino" href="/images/press/Clones-of-the-Queen-Live-Shot-1-by-Aaron-Yoshino.jpg"><img class="attachment-thumbnail" title="Clones of the Queen Live Shot 1 by Aaron Yoshino" src="/images/press/Clones-of-the-Queen-Live-Shot-1-150x150.jpg" alt="Clones of the Queen Live Shot 1 by Aaron Yoshino" width="150" height="150"></a></li>
-        <li><a title="Clones of the Queen Live Shot 3 by Aaron Yoshino" href="/images/press/Clones-of-the-Queen-Live-Shot-3-by-Aaron-Yoshino.png"><img class="attachment-thumbnail" title="Clones of the Queen Live Shot 3 by Aaron Yoshino" src="/images/press/Clones-of-the-Queen-Live-Shot-3-150x150.png" alt="Clones of the Queen Live Shot 3 by Aaron Yoshino" width="150" height="150"></a></li>
-      </ul>
-
-      <div class="clear"></div>
-
-      <h3>Big Photos</h3>
-      <ul class="thumbs">
-        <li><a title="Clones of the Queen at Hard Rock Cafe Waikiki. Photo by Shirley Lam." href="/images/press/2011-09-30-COTQ-at-Hard-Rock-Cafe-by-Shirley-Lam.jpg"><img class="attachment-thumbnail" src="/images/press/2011-09-30-COTQ-at-Hard-Rock-Cafe-by-Shirley-Lam-150x150.jpg" alt="Clones of the Queen at Hard Rock Cafe Waikiki. Photo by Shirley Lam." width="150" height="150"></a></li>
-        <li><a title="Clones of the Queen opening for Warpaint at Aloha Tower for Hallowbaloo. Photo by Zach McCaffree." href="/images/press/2011-10-29-COTQ-at-Aloha-Tower-for-Hallowbaloo-by-Zach-McCaffree.jpg"><img class="attachment-thumbnail" src="/images/press/2011-10-29-COTQ-at-Aloha-Tower-for-Hallowbaloo-by-Zach-McCaffree-150x150.jpg" alt="Clones of the Queen opening for Warpaint at Aloha Tower for Hallowbaloo. Photo by Zach McCaffree." width="150" height="150"></a></li>
-        <li><a title="Clones of the Queen Live Shot 4 by Mark Kushimi" href="/images/press/Clones-of-the-Queen-Live-Shot-4-by-Mark-Kushimi.jpg"><img class="attachment-thumbnail" title="Clones of the Queen Live Shot 2 by Mark Kushimi" src="/images/press/Clones-of-the-Queen-Live-Shot-4-150x150.jpg" alt="Clones of the Queen Live Shot 4 by Mark Kushimi" width="150" height="150"></a></li>
-        <li><a title="Clones of the Queen Press Shot 1 by Aaron Yoshino" href="/images/press/Clones-of-the-Queen-Press-Shot-2-by-Aaron-Yoshino.jpg"><img class="attachment-thumbnail" title="Clones of the Queen Press Shot 1 by Aaron Yoshino" src="/images/press/Clones-of-the-Queen-Press-Shot-2-150x150.jpg" alt="Clones of the Queen Press Shot 2 by Aaron Yoshino" width="150" height="150"></a></li>
-      </ul>
-
-      <div class="clear"></div>
--->
-
       <a name="press"></a>
 
       <h3>Print Archive</h3>
       <ul class="links press">
         <li><a href="http://www.honolulupulse.com/music/honolulu-museum-art-musical-mix"><strong>2013-01-25</strong> &bull; Star Advertiser TGIF: Honolulu Museum of Art showcases musical mix</a></li>
+        <li><a href="http://honoluluweekly.com/hotpicks/2013/01/secret%E2%80%99s-out/"><strong>2013-01-24</strong> &bull; Honolulu Weekly: Secret&rsquo;s Out</a></li>
         <li><a href="http://www.honolulupulse.com/music/sceneheard-clones-of-the-queen-get-braided"><strong>2012-08-13</strong> &bull; Scene &amp; Heard: Clones of the Queen Get &lsquo;Braided&rsquo; (Honolulu Pulse)</a></li>
         <li><a href="http://honoluluweekly.com/story-continued/2011/08/nightlife-2/"><strong>2011-08-17</strong> &bull; Honolulu Weekly: COTQ Runner-up for Best Band in Honolulu</a></li>
         <li><a href="http://honolulupulse.com/bars-clubs/event-what-to-expect-at-hallowbaloo"><strong>2011-08-05</strong> &bull; Honolulu Pulse: What to Expect at Hallowbaloo</a></li>
@@ -253,6 +244,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
 
       <h3>Blog Archive</h3>
       <ul class="links blogs">
+        <li><a href="http://rocksubculture.com/2013/07/31/the-cure-the-great-circle-tour-at-neal-s-blaisdell-arena-honolulu-hawaii-7302013-concert-review/"><strong>2013-07-31</strong> &bull; Rock Subculture</a></li>
         <li><a href="http://www.radiorimasto.com/2012/12/radiorimasto-puntata-039.html"><strong>2012-12-26</strong> &bull; Radio Rimasto</a></li>
         <li><a href="http://www.radiorimasto.com/2012/10/radiorimasto-puntata-030.html"><strong>2012-10-22</strong> &bull; Radio Rimasto</a></li>
         <li><a href="http://dayvanzombear.blogspot.com/2012/10/blog-post.html"><strong>2012-10-19</strong> &bull; Dayvan Zombear</a></li>
@@ -292,39 +284,6 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <div class="clear"></div>
 
       <hr>
-
-<!--
-      <h2 id="store">Store</h2>
-
-      <div class="section">
-        <div class="span-10 first append-1">
-          <div class="tee_photos">
-            <img src="images/store/in4mation_tee_photo.gif">
-            <img src="images/store/in4mation_tee.png">
-          </div>
-          <img src="images/store/in4mation_logo.png" style="float: left; margin: 0 2em 2em 0;">
-          <p style="margin-top: 0;">Clones of the Queen tees, made by in4mation, are available now. White print on a black tee. Designed by Dana Paresa, local artist and friend of the band, and COTQ lead singer Ara Laylo. Limited quantities available.</p>
-        </div>
-        <div class="span-13 last">
-          <script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
-          <script type="text/javascript">
-          var m7x3k1 = new WufooForm();
-          m7x3k1.initialize({
-          'userName':'matthewmcvickar',
-          'formHash':'m7x3k1',
-          'autoResize':true,
-          'height':'772',
-          'header':'hide',
-          'ssl':true});
-          m7x3k1.display();
-          </script>
-        </div>
-      </div>
-
-      <div class="clear"></div>
-
-      <hr>
--->
 
       <div class="footer span-24">
         <div class="copyright">

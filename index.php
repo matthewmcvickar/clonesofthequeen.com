@@ -66,7 +66,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <p class="listen">Or listen right here:</p>
 
       <div class="player">
-        <iframe style="border: 0; width: 350px; height: 470px;" src="http://bandcamp.com/EmbeddedPlayer/album=2206149206/size=large/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
+        <iframe style="border: 0; width: 350px; height: 537px;" src="http://bandcamp.com/EmbeddedPlayer/album=2206149206/size=large/bgcol=ffffff/linkcol=0687f5/package=504050907/notracklist=true/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
       </div>
 
       <!-- <a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="images/braided-huge.gif"></a> -->

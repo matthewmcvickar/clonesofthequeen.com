@@ -248,18 +248,28 @@ ul.links li
   margin-right: 25px;
 }
 
-.elsewhere h2
+.elsewhere
 {
-  margin-bottom: 0;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin: 2em 0;
+  padding: 1em 0;
+  overflow: hidden;
 }
 
 .elsewhere a
 {
-  display: block;
-  font-size: 14px;
-  padding: .1em 0 .25em;
   float: left;
-  width: 50%;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 53px;
+  padding: .1em 0 .25em;
+  text-align: center;
+}
+
+.elsewhere a.last
+{
+  margin-right: 0;
 }
 
 .bio p
@@ -388,7 +398,7 @@ ul.links li
 .click,
 .listen
 {
-  font-family: Georgia, Times, serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 26px;
   font-weight: bold;
   line-height: 1;

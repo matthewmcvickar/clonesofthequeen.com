@@ -57,16 +57,26 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
     <div class="container">
       <h1><a class="title" href="/" title="Clones of the Queen" rel="home">Clones of the Queen</a></h1>
 
-      <p class="intro">We are a synth-pop trio from Honolulu, Hawaii.</p>
+      <div class="elsewhere">
+        <a href="http://facebook.com/clonesofthequeen">Facebook</a>
+        <a href="http://clonesofthequeen.bandcamp.com">Bandcamp</a>
+        <a href="http://twitter.com/cotq">Twitter</a>
+        <a href="http://soundcloud.com/cotq">SoundCloud</a>
+        <a href="http://cotq.tumblr.com">Tumblr</a>
+        <a href="mailto:contact@clonesofthequeen.com">Email Us</a>
+        <a class="last" href="http://eepurl.com/dvK_9">Mailing List</a>
+      </div>
 
-      <p class="who">Ara Laylo on vocals, Paul Bajcar on guitar, Matthew McVickar on electronics.</p>
+      <p class="intro">We are a dream-pop trio from Honolulu, Hawaii.</p>
 
-      <p class="click"><a href="http://clonesofthequeen.bandcamp.com/album/braided">Click here to download our EP <em>Braided</em> for free.</a></p>
+      <p class="who">Ara Laylo on vocals, Paul Bajcar on guitars, Matthew McVickar on electronics.</p>
+
+      <p class="click"><a href="http://clonesofthequeen.bandcamp.com/album/moonlight">Click here to download our EP <em>Moonlight</em> for free.</a></p>
 
       <p class="listen">Or listen right here:</p>
 
       <div class="player">
-        <iframe style="border: 0; width: 350px; height: 537px;" src="http://bandcamp.com/EmbeddedPlayer/album=2206149206/size=large/bgcol=ffffff/linkcol=0687f5/package=504050907/notracklist=true/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
+        <iframe style="border: 0; width: 350px; height: 470px;" src="http://bandcamp.com/EmbeddedPlayer/album=2722705087/size=large/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/moonlight">Moonlight by Clones of the Queen</a></iframe>
       </div>
 
       <!-- <a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="images/braided-huge.gif"></a> -->
@@ -74,26 +84,13 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <hr>
 
       <div class="section">
-        <div class="span-10 append-1 first">
-          <h2><em>Gate</em>, Our First EP</h2>
-          <iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=3663572557/size=venti/bgcol=ffffff/linkcol=000000/" allowtransparency="true" frameborder="0"><a href="http://clonesofthequeen.bandcamp.com/album/gate">Gate by Clones of the Queen</a></iframe>
+        <div class="span-12 first">
+          <h2><em>Gate</em> Is Our First EP</h2>
+          <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3663572557/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/gate">Gate by Clones of the Queen</a></iframe>
         </div>
-        <div class="span-8">
-          <h2>Upcoming Shows</h2>
-          <div class="shows">
-            <script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script>
-            <script type='text/javascript'>var widget = new BIT.Widget({"artist":"Clones of the Queen","prefix":"fbjs"});widget.insert_events();</script>
-          </div>
-        </div>
-        <div class="span-5 last elsewhere">
-          <h2>Elsewhere</h2>
-          <a href="http://facebook.com/clonesofthequeen">Facebook</a>
-          <a href="http://clonesofthequeen.bandcamp.com">Bandcamp</a>
-          <a href="http://twitter.com/cotq">Twitter</a>
-          <a href="http://soundcloud.com/cotq">SoundCloud</a>
-          <a href="http://cotq.tumblr.com">Tumblr</a>
-          <a href="mailto:contact@clonesofthequeen.com">Email</a>
-          <a href="http://eepurl.com/dvK_9">Mailing List</a>
+        <div class="span-12 last">
+          <h2><em>Braided</em> Is Our Second EP</h2>
+          <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2206149206/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://clonesofthequeen.bandcamp.com/album/braided">Braided by Clones of the Queen</a></iframe>
         </div>
         <div class="clear"></div>
       </div>
@@ -185,18 +182,29 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <h2>Press</h2>
 
       <div class="section">
-        <div class="span-19 first">
+        <div class="span-18 first">
+          <h3><em>Moonlight</em> EP</h3>
+          <ul class="thumbs">
+            <li><a href="http://clonesofthequeen.bandcamp.com/album/moonlight"><img src="files/thumbnails/moonlight-download.gif" alt="" />MP3 Download</a></li>
+            <li><a href="files/COTQ - Moonlight - Cover.png"><img src="files/thumbnails/moonlight-cover.gif" alt="">Cover</a></li>
+            <li><a href="files/COTQ - Moonlight - Digital Booklet.pdf"><img src="files/thumbnails/moonlight-booklet.gif" alt="" />Digital Booklet</a></li>
+          </ul>
+        </div>
+        <div class="span-6 last">
+          <h3>Live</h3>
+          <ul class="thumbs">
+            <li><a href="files/COTQ Stageplot and Backline.pdf"><img src="files/thumbnails/backline.png" alt="" />Stage Plot/Backline</a></li>
+          </ul>
+        </div>
+
+        <div class="clear"><br><br></div>
+
+        <div class="span-23 first last">
           <h3><em>Braided</em> EP</h3>
           <ul class="thumbs">
             <li><a href="http://clonesofthequeen.bandcamp.com/album/braided"><img src="files/thumbnails/braided_download.gif" alt="" />MP3 Download</a></li>
             <li><a href="files/COTQ - Braided - Cover.jpg"><img src="files/thumbnails/braided_cover.jpg" alt="">Cover</a></li>
             <li><a href="files/COTQ - Braided - Digital Booklet.pdf"><img src="files/thumbnails/braided_booklet.gif" alt="" />Digital Booklet</a></li>
-          </ul>
-        </div>
-        <div class="span-5 last">
-          <h3>Live</h3>
-          <ul class="thumbs">
-            <li><a href="files/COTQ Stageplot and Backline.pdf"><img src="files/thumbnails/backline.png" alt="" />Stage Plot and Backline</a></li>
           </ul>
         </div>
 
@@ -205,7 +213,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         <div class="span-24 first last">
           <h3><em>Gate</em> EP</h3>
           <ul class="thumbs">
-            <li><a href="http://clonesofthequeen.com/gate"><img src="files/thumbnails/gate_download.gif" alt="" />MP3 Download</a></li>
+            <li><a href="http://clonesofthequeen.bandcamp.com/album/gate"><img src="files/thumbnails/gate_download.gif" alt="" />MP3 Download</a></li>
             <li><a href="files/COTQ - Gate - Cover (Front).jpg"><img src="files/thumbnails/gate_front.jpg" alt="">Front Cover</a></li>
             <li><a href="files/COTQ - Gate - Cover (Back).jpg"><img src="files/thumbnails/gate_back.jpg" alt="">Back Cover</a></li>
             <li><a href="files/COTQ - Gate - Digital Booklet.pdf"><img src="files/thumbnails/gate_booklet.gif" alt="" />Digital Booklet</a></li>

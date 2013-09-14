@@ -229,6 +229,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
       <ul class="links press">
         <li><a href="http://www.honolulupulse.com/music/honolulu-museum-art-musical-mix"><strong>2013-01-25</strong> &bull; Star Advertiser TGIF: Honolulu Museum of Art showcases musical mix</a></li>
         <li><a href="http://honoluluweekly.com/hotpicks/2013/01/secret%E2%80%99s-out/"><strong>2013-01-24</strong> &bull; Honolulu Weekly: Secret&rsquo;s Out</a></li>
+        <li><a href="http://www.insideouthawaii.com/January-2013/Concert-Series/"><strong>2013-01-01</strong> &bull; Oahu Inside Out: Musicians to jam at Doris Duke</a></li>
         <li><a href="http://www.honolulupulse.com/music/sceneheard-clones-of-the-queen-get-braided"><strong>2012-08-13</strong> &bull; Scene &amp; Heard: Clones of the Queen Get &lsquo;Braided&rsquo; (Honolulu Pulse)</a></li>
         <li><a href="http://honoluluweekly.com/story-continued/2011/08/nightlife-2/"><strong>2011-08-17</strong> &bull; Honolulu Weekly: COTQ Runner-up for Best Band in Honolulu</a></li>
         <li><a href="http://honolulupulse.com/bars-clubs/event-what-to-expect-at-hallowbaloo"><strong>2011-08-05</strong> &bull; Honolulu Pulse: What to Expect at Hallowbaloo</a></li>

@@ -253,6 +253,9 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
 
       <h3>Blog Archive</h3>
       <ul class="links blogs">
+        <li><a href="http://schuylertsuda.blogspot.com/"><strong>2013-09-22</strong> &bull; Schuyler Tsuda</a></li>
+        <li><a href="http://hawaiiindependent.net/hum"><strong>2013-09-20</strong> &bull; Gary Chun: The Hum</a></li>
+        <li><a href="http://ceejeesplace.blogspot.com/2013/09/clones-of-queen-moonlight-2013.html"><strong>2013-09-15</strong> &bull; Ceejee&rsquo;s Place</a></li>
         <li><a href="http://rocksubculture.com/2013/07/31/the-cure-the-great-circle-tour-at-neal-s-blaisdell-arena-honolulu-hawaii-7302013-concert-review/"><strong>2013-07-31</strong> &bull; Rock Subculture</a></li>
         <li><a href="http://www.radiorimasto.com/2012/12/radiorimasto-puntata-039.html"><strong>2012-12-26</strong> &bull; Radio Rimasto</a></li>
         <li><a href="http://www.radiorimasto.com/2012/10/radiorimasto-puntata-030.html"><strong>2012-10-22</strong> &bull; Radio Rimasto</a></li>

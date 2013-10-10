@@ -61,7 +61,7 @@ if ($_REQUEST['section'] == 'press')  { header('Location: http://clonesofthequee
         <a href="http://facebook.com/clonesofthequeen">Facebook</a>
         <a href="http://clonesofthequeen.bandcamp.com">Bandcamp</a>
         <a href="http://twitter.com/cotq">Twitter</a>
-        <a href="http://soundcloud.com/cotq">SoundCloud</a>
+        <a href="https://soundcloud.com/cotq/sets">SoundCloud</a>
         <a href="http://cotq.tumblr.com">Tumblr</a>
         <a href="mailto:contact@clonesofthequeen.com">Email Us</a>
         <a class="last" href="http://eepurl.com/dvK_9">Mailing List</a>

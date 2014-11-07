@@ -39,7 +39,7 @@ html
 
 .footer
 {
-  background: url(img/ant.png) right no-repeat;
+  background: url(../img/ant.png) right no-repeat;
   margin: 0 0 2em 0;
   padding: 1em 0;
   width: 100%;
@@ -64,7 +64,7 @@ h1
 h1 a,
 h1 a:hover
 {
-  background: transparent url(img/title.png) center no-repeat;
+  background: transparent url(../img/title.png) center no-repeat;
   display: block;
   width: 100%;
   height: 71px;
@@ -399,40 +399,36 @@ ul.links li
 .listen
 {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1;
-  margin: .5em 0;
+  margin: .9em 0;
   padding: 0;
   text-align: center;
 }
 
-.who
-{
-  font-size: 16px;
-  margin: 1.5em 0;
-}
 
 .click
 {
   cursor: pointer;
   display: block;
-  margin: .75em 0;
+
   text-decoration: none;
 }
 
-.click a
+.player
 {
-  border-bottom: 2px solid #09F;
+  float: left;
+  margin-top: 1em;
 }
 
-.click a:hover
+.player h2
 {
-  border-bottom: 2px solid #333;
+  text-align: center;
 }
 
 .player iframe
 {
   display: block;
-  margin: 2.5em auto 0 auto;
+  margin: .5em auto 0 auto;
 }

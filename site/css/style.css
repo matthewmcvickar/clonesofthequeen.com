@@ -420,6 +420,12 @@ ul.links li
 {
   float: left;
   margin-top: 1em;
+  width: 300px;
+}
+
+.player + .player
+{
+  margin-left: 25px;
 }
 
 .player h2

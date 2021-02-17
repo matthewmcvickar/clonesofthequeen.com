@@ -407,11 +407,14 @@ ul.links li
   text-align: center;
 }
 
+.intro {
+  line-height: 1.5;
+}
+
 .intro small
 {
   color: #ccc;
   display: block;
-  margin-top: 1em;
 }
 
 .click

@@ -10,26 +10,7 @@
     <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
 
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-    google.load('jquery', '1.4.2');
-    </script>
-
     <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-
-    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-      $('.slideshow').cycle({
-    		fx: 'fade',
-    		random: 'false',
-        timeout: 5000,
-        pager: '#slideshow_navigation',
-        pauseOnPagerHover: 'true',
-        pagerAnchorBuilder: function(idx, slide) { return '#slideshow_navigation li:eq(' + idx + ') a'; }
-    	});
-    });
-    </script>
 
     <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -89,7 +70,7 @@
 
       <h2 id="photos">Photos</h2>
 
-      <div class="slideshow">
+      <div class="slideshow" data-simple-slider>
         <div><img src="https://farm6.staticflickr.com/5487/9459990467_c9fbb05cd3_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
         <div><img src="https://farm6.staticflickr.com/5336/9462771602_683bc9cd53_b.jpg" title="Photo by Shirley Lam"><span>Photo by Shirley Lam</span></div>
         <div><img src="https://farm8.staticflickr.com/7424/9462771584_69c2a2e1d2_b.jpg" title="Photo by Jason DeBord"><span>Photo by Jason DeBord</span></div>
@@ -120,33 +101,33 @@
       </div>
 
       <ul id="slideshow_navigation">
-        <li><a href="#"><img src="https://farm6.staticflickr.com/5487/9459990467_c9fbb05cd3_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm6.staticflickr.com/5336/9462771602_683bc9cd53_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm8.staticflickr.com/7424/9462771584_69c2a2e1d2_b.jpg" title="Photo by Jason DeBord"></a></li>
-        <li><a href="#"><img src="https://farm8.staticflickr.com/7426/9459990861_3da729ae4d_b.jpg" title="Photo by Jason DeBord"></a></li>
-        <li><a href="#"><img src="https://farm8.staticflickr.com/7310/9462771768_04cc8e99ee_b.jpg" title="Photo by Jason DeBord"></a></li>
-        <li><a href="#"><img src="https://farm6.staticflickr.com/5493/9462771864_e1c70501ce_b.jpg" title="Photo by Jason DeBord"></a></li>
-        <li><a href="#"><img src="https://farm8.staticflickr.com/7369/9459991055_e1de2b2fc3_b.jpg" title="Photo by Lauren Howard"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8386/8632360217_850665a4fa_b.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8402/8632360177_ac4e7f08a2_b.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8254/8632360061_d49345fd58_b.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8384/8632360013_b693f9b954_b.jpg" title="Photo by AJ Feducia"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8522/8632359947_63d1793a01_b.jpg" title="Photo by David Randall"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8105/8633467436_437ce1f04b_b.jpg" title="Photo by Colin Cross"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8539/8633466918_b6b43006c3_b.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8541/8632359753_4fe867e81d_b.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8116/8632359763_379afc9968_b.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8394/8633466902_c0b6939f1f_b.jpg" title="Photo by Zach McCaffree"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8244/8633466994_fe7c4d56c0_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8125/8632359833_21391b7f71_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8386/8632359835_a6c106a190_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8107/8632359799_d7fac13a5e_b.jpg" title="Photo by Shirley Lam"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8406/8632359979_0d15be4e79_b.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8519/8632359883_77f016ea52_b.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8543/8633467034_ece70d3466_b.jpg" title="Photo by Mark Kushimi"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8251/8633467010_5ddd4b3aea_b.jpg" title="Photo by Partyyyface"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8118/8632359909_6768bc8396_b.jpg" title="Photo by Miya Yamaoaka"></a></li>
-        <li><a href="#"><img src="https://farm9.staticflickr.com/8109/8633467130_145b334fe1_b.jpg" title="Photo by Kai Salus"></a></li>
+        <li class="active"><img src="https://farm6.staticflickr.com/5487/9459990467_c9fbb05cd3_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm6.staticflickr.com/5336/9462771602_683bc9cd53_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm8.staticflickr.com/7424/9462771584_69c2a2e1d2_b.jpg" title="Photo by Jason DeBord"></li>
+        <li><img src="https://farm8.staticflickr.com/7426/9459990861_3da729ae4d_b.jpg" title="Photo by Jason DeBord"></li>
+        <li><img src="https://farm8.staticflickr.com/7310/9462771768_04cc8e99ee_b.jpg" title="Photo by Jason DeBord"></li>
+        <li><img src="https://farm6.staticflickr.com/5493/9462771864_e1c70501ce_b.jpg" title="Photo by Jason DeBord"></li>
+        <li><img src="https://farm8.staticflickr.com/7369/9459991055_e1de2b2fc3_b.jpg" title="Photo by Lauren Howard"></li>
+        <li><img src="https://farm9.staticflickr.com/8386/8632360217_850665a4fa_b.jpg" title="Photo by AJ Feducia"></li>
+        <li><img src="https://farm9.staticflickr.com/8402/8632360177_ac4e7f08a2_b.jpg" title="Photo by AJ Feducia"></li>
+        <li><img src="https://farm9.staticflickr.com/8254/8632360061_d49345fd58_b.jpg" title="Photo by AJ Feducia"></li>
+        <li><img src="https://farm9.staticflickr.com/8384/8632360013_b693f9b954_b.jpg" title="Photo by AJ Feducia"></li>
+        <li><img src="https://farm9.staticflickr.com/8522/8632359947_63d1793a01_b.jpg" title="Photo by David Randall"></li>
+        <li><img src="https://farm9.staticflickr.com/8105/8633467436_437ce1f04b_b.jpg" title="Photo by Colin Cross"></li>
+        <li><img src="https://farm9.staticflickr.com/8539/8633466918_b6b43006c3_b.jpg" title="Photo by Zach McCaffree"></li>
+        <li><img src="https://farm9.staticflickr.com/8541/8632359753_4fe867e81d_b.jpg" title="Photo by Zach McCaffree"></li>
+        <li><img src="https://farm9.staticflickr.com/8116/8632359763_379afc9968_b.jpg" title="Photo by Zach McCaffree"></li>
+        <li><img src="https://farm9.staticflickr.com/8394/8633466902_c0b6939f1f_b.jpg" title="Photo by Zach McCaffree"></li>
+        <li><img src="https://farm9.staticflickr.com/8244/8633466994_fe7c4d56c0_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm9.staticflickr.com/8125/8632359833_21391b7f71_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm9.staticflickr.com/8386/8632359835_a6c106a190_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm9.staticflickr.com/8107/8632359799_d7fac13a5e_b.jpg" title="Photo by Shirley Lam"></li>
+        <li><img src="https://farm9.staticflickr.com/8406/8632359979_0d15be4e79_b.jpg" title="Photo by Mark Kushimi"></li>
+        <li><img src="https://farm9.staticflickr.com/8519/8632359883_77f016ea52_b.jpg" title="Photo by Mark Kushimi"></li>
+        <li><img src="https://farm9.staticflickr.com/8543/8633467034_ece70d3466_b.jpg" title="Photo by Mark Kushimi"></li>
+        <li><img src="https://farm9.staticflickr.com/8251/8633467010_5ddd4b3aea_b.jpg" title="Photo by Partyyyface"></li>
+        <li><img src="https://farm9.staticflickr.com/8118/8632359909_6768bc8396_b.jpg" title="Photo by Miya Yamaoaka"></li>
+        <li><img src="https://farm9.staticflickr.com/8109/8633467130_145b334fe1_b.jpg" title="Photo by Kai Salus"></li>
       </ul>
 
       <p class="photo_warning">All photos are copyright their photographers, all rights reserved. Reuse is only permitted with permission&mdash;<a href="mailto:contact@clonesofthequeen.com">email us</a>. Please do not use one of these photos for a flyer without asking the photographer first and crediting them.</p>
@@ -305,6 +286,44 @@
       </div>
 
     </div>
+
+    <script src="js/simpleslider.min.js"></script>
+    <script type="text/javascript">
+    // Photo gallery.
+    var slideshow = simpleslider.getSlider({
+      // This plugin works by adjusting a property of the slide when it's active
+      // or inactive. In this case, the `opacity` property is transitioned from 0
+      // to 1 for an active slide.
+      prop: 'opacity',
+      unit: '',
+      init: 0,
+      show: 1,
+      end: 0,
+
+      // Change how many seconds between automatic slide changes.
+      delay: 2.5,
+
+      // Highlight the corresponding thumbnail when a slide changes.
+      onChange: function(prevIndex, nextIndex) {
+        // Turn off 'active' for all thumbnails.
+        document.querySelectorAll('#slideshow_navigation li').forEach(function(thumbnail) {
+          thumbnail.classList.remove('active');
+        });
+
+        // Turn on 'active' for corresponding thumbnail.
+        var targetThumbnailID = nextIndex + 1;
+        document.querySelector('#slideshow_navigation li:nth-child(' + targetThumbnailID + ')').classList.add('active');
+      },
+    });
+
+    // Change the slide when a thumbnail is clicked.
+    document.querySelectorAll('#slideshow_navigation li').forEach(function(thumbnail,i) {
+      thumbnail.addEventListener('click', function() {
+        slideshow.change(i);
+        slideshow.pause();
+      })
+    });
+    </script>
 
   </body>
 </html>

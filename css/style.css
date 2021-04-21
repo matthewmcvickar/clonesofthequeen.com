@@ -363,7 +363,7 @@ ul.links li
           transition: all .5s ease-in-out;
 }
 
-#slideshow_navigation li.activeSlide img,
+#slideshow_navigation li.active img,
 #slideshow_navigation li:hover img
 {
   opacity: 1;
@@ -386,11 +386,10 @@ ul.links li
 
 .photo_warning
 {
-  color: red;
+  color: gray;
   font-size: 17px;
   font-weight: bold;
   text-align: center;
-
 }
 
 .intro,

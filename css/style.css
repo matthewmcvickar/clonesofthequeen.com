@@ -393,36 +393,15 @@ ul.links li
   text-align: center;
 }
 
-.intro,
-.who,
-.click,
-.listen
+.intro
 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.7;
   margin: .9em 0;
   padding: 0;
   text-align: center;
-}
-
-.intro {
-  line-height: 1.5;
-}
-
-.intro small
-{
-  color: #ccc;
-  display: block;
-}
-
-.click
-{
-  cursor: pointer;
-  display: block;
-
-  text-decoration: none;
 }
 
 .player

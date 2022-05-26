@@ -255,14 +255,15 @@ ul.links li
   margin: 2em 0;
   padding: 1em 0;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .elsewhere a
 {
-  float: left;
+  display: block;
   font-size: 19px;
   font-weight: bold;
-  margin-right: 53px;
   padding: .1em 0 .25em;
   text-align: center;
 }
